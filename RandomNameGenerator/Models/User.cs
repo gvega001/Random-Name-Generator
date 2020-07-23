@@ -1,5 +1,4 @@
-﻿using Microsoft.Azure.Mobile.Server;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
@@ -7,7 +6,7 @@ using System.Web;
 
 namespace siscloudbookService.DataObjects
 {
-    public class User : EntityData
+    public class User 
     {
        
         public string User_id { get; set; }

@@ -1,13 +1,12 @@
-﻿using Microsoft.Azure.Mobile.Server;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
-namespace siscloudbookService.DataObjects
+namespace RandomNameGenerator.Models
 {
-    public class GroupCategory : EntityData
+    public class GroupCategory 
     {
         public string Group_category_id { get; set; }
         public string Account_id { get; set; }

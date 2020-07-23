@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace siscloudbookService.DataObjects
+namespace RandomNameGenerator.Models
 {
     public class Admin 
     {

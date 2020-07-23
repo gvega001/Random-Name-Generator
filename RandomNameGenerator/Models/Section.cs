@@ -1,13 +1,12 @@
-﻿using Microsoft.Azure.Mobile.Server;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
-namespace siscloudbookService.DataObjects
+namespace RandomNameGenerator.Models
 {
-    public class Section : EntityData
+    public class Section 
     {
         public string Section_id { get; set; }
         public string Course_id { get; set; }

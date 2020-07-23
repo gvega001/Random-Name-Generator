@@ -1,12 +1,11 @@
-﻿using Microsoft.Azure.Mobile.Server;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace siscloudbookService.DataObjects
+namespace RandomNameGenerator.Models
 {
-    public class Term : EntityData
+    public class Term 
     {
         public string Term_id { get; set; }
         public string Name { get; set; }
