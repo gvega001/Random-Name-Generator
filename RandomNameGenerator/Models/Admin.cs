@@ -8,12 +8,12 @@ namespace siscloudbookService.DataObjects
 {
     public class Admin 
     {
-        public string User_id { get; set; }
+        public Guid User_id { get; private set; } = Guid.NewGuid();
        
         public string Account_id { get; set; }
       
         public string Role_id { get; set; }
         public string Role { get; set; }
-        public string Root_account { get; set; }
+      
     }
 }

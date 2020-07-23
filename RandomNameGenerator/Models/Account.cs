@@ -8,9 +8,9 @@ namespace RandomNameGenerator.Models
 { 
     public class Account
     {
-        private string Name { get; set; }
-        private string accountId { get; set; }
-        private string sisAccountId { get; set; }
+        public string Name { get; set; }
+        public Guid accountId { get; private set; } = Guid.NewGuid();
+        public string sisAccountId { get; set; }
 
     }
 }
