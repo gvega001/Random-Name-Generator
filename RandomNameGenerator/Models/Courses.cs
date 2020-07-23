@@ -1,14 +1,11 @@
-﻿using Microsoft.Azure.Mobile.Server;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System;
+
 
 namespace siscloudbookService.DataObjects
 {
-    public class Courses : EntityData
+    public class Courses
     {
-        public string Course_id { get; set; }
+        public Guid courseId{ get; private set; } = Guid.NewGuid();
         public string Short_name { get; set; }
         public string Long_name { get; set; }
         public string Account_id { get; set; }
